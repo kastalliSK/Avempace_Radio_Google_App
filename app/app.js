@@ -59,10 +59,10 @@ app.setHandler({
   }
   })
 
-    this.toIntent('HelloIntent');
+    this.toIntent('Default Welcome Intent');
   },
 
-  'HelloIntent': function() {
+  'Default Welcome Intent': function() {
       this.ask('Hello! thank you for choosing this app  .. if you want help say.. : Help ');
   },
   'HelpIntent': function() {
